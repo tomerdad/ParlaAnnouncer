@@ -1,0 +1,49 @@
+# permissions - reload - parlaannouncer.reload
+# permissions - broadcast Command - parlaannouncer.broadcast
+announcer:
+  exmp1:
+    enable: true
+    # timer in seconds
+    Timer: 10
+    #    mode: global/servers/except
+    mode: servers
+    servers:
+      - lobby
+    #    random - random order
+    #    order - one by one
+    #    message-order: order/random
+    message-order: random
+    messages:
+      1:
+        - '&6-----------------------------------------------------'
+        - '&7                          welcome to my server'
+        - '&7                             this is example'
+        - '&6-----------------------------------------------------'
+      2:
+        - '&6-----------------------------------------------------'
+        - '&5                          welcome to my server'
+        - '&5                             this is example'
+        - '&6-----------------------------------------------------'
+      3:
+        - '&6-----------------------------------------------------'
+        - '&4                          welcome to my server'
+        - '&4                             this is example'
+        - '&6-----------------------------------------------------'
+  exmp2:
+    enable: false
+    Timer: 20
+    mode: global
+    servers:
+      - lobby
+    message-order: random
+    messages:
+      1:
+        - '&6-----------------------------------------------------'
+        - '&8                             join our discord'
+        - '&8                                  link'
+        - '&6-----------------------------------------------------'
+      2:
+        - '&6-----------------------------------------------------'
+        - '&a                             join our discord'
+        - '&a                                  link'
+        - '&6-----------------------------------------------------'
