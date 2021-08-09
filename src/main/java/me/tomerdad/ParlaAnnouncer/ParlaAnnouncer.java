@@ -63,7 +63,7 @@ public class ParlaAnnouncer {
                 .requires(ctx -> ctx.hasPermission("parlaannouncer.reload"))
                 .executes(ctx -> {
                     utilities.reload(this, server);
-                    ctx.getSource().sendMessage(Component.text().append(LegacyComponentSerializer.legacyAmpersand().deserialize("&aReload success")).build());
+                    ctx.getSource().sendMessage(Component.text().append(LegacyComponentSerializer.legacyAmpersand().deserialize("&aReload Success")).build());
 //                    server.sendMessage(Component.text().append(LegacyComponentSerializer.legacyAmpersand().deserialize("&aReload success")).build());
                     return 1;
                 })
