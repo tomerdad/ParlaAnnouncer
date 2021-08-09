@@ -59,7 +59,7 @@ public class ParlaAnnouncer {
                 .build();
 
         LiteralCommandNode<CommandSource> reload = LiteralArgumentBuilder
-                .<CommandSource>literal("reload")
+                .<CommandSource>literal("parlaannouncer-reload")
                 .requires(ctx -> ctx.hasPermission("parlaannouncer.reload"))
                 .executes(ctx -> {
                     utilities.reload(this, server);
@@ -77,7 +77,7 @@ public class ParlaAnnouncer {
         );
 
         manager.register(
-                manager.metaBuilder("parlannouncer-reload").build(),
+                manager.metaBuilder("parlaannouncer-reload").build(),
                 new BrigadierCommand(reload)
         );
 
