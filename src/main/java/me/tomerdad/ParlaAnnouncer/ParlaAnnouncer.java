@@ -21,7 +21,7 @@ import net.kyori.adventure.text.serializer.legacy.LegacyComponentSerializer;
 import org.slf4j.Logger;
 
 @Plugin(id = "parlaannouncer", name = "Parla Announcer", version = "1.0",
-        url = "https://example.org", description = "Announcer plugin", authors = {"tomerdad"})
+        description = "Announcer plugin", authors = {"tomerdad"})
 public class ParlaAnnouncer {
 
     private final ProxyServer server;
