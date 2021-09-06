@@ -1,5 +1,7 @@
 # permissions - reload - parlaannouncer.reload
 # permissions - broadcast Command - parlaannouncer.broadcast
+prefix: '&6[&4BroadCast&6]&f '
+# Announcer
 announcer:
   exmp1:
     enable: true
@@ -13,6 +15,7 @@ announcer:
     #    order - one by one
     #    message-order: order/random
     message-order: random
+    #https://docs.adventure.kyori.net/minimessage.html#format
     messages:
       1:
         - '&6-----------------------------------------------------'
@@ -39,7 +42,7 @@ announcer:
     messages:
       1:
         - '&6-----------------------------------------------------'
-        - '&8                             join our discord'
+        - '                             join our discord'
         - '&8                                  link'
         - '&6-----------------------------------------------------'
       2:
